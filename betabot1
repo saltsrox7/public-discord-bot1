@@ -1,0 +1,1616 @@
+import discord
+from discord.ext import commands
+#The bot's personal Token
+TOKEN = '*****************************'
+
+client = commands.Bot(command_prefix='.')
+
+#Once the bot is all ready it prints a ready-message
+@client.event
+async def on_ready():
+    print('MOMMY is ready to face the dangers of the discord server')
+
+#When a member joins any server the bot is in it prints a message
+@client.event
+async def on_member_join(member):
+    print(f'{member} has joined a server that Gang Weed is in.')
+
+#When a member is removed from any server the bot is in it prints a message
+@client.event
+async def on_member_remove(member):
+    print(f'{member} has left a server that Gang Weed is in.')
+
+
+#This one is a funny censoring message; if it detects certain keywords it sends a threatening message
+@client.event
+async def on_message(message):
+    if client.user.id != message.author.id:
+        message_content = message.content.lower()
+        if 'i dont like' in message_content or "i don't like" in message_content or 'i hate' in message_content or 'fuck' in message_content or 'is stupid' in message_content or 'is gay' in message_content or 'is dumb' in message_content or 'is retarded' in message_content or 'is a bitch' in message_content or 'sucks' in message_content:
+            if 'jahseh' in message_content or 'jah' in message_content:
+                await message.channel.send(f'''Ok buddy, {message.author}. 
+\nYou don't like Jah? Well hes kind of a god around these parts so you better be watching your god damn mouth, got it retard? 
+\nNext time im going to have to punish you. 
+\nJesus Christ.''')
+
+@client.listen()
+async def on_message(message):
+    if client.user.id != message.author.id:
+        message_content = message.content.lower()
+        if 'i dont like' in message_content or "i don't like" in message_content or 'i hate' in message_content or 'fuck' in message_content or 'is stupid' in message_content or 'is gay' in message_content or 'is dumb' in message_content or 'is retarded' in message_content or 'is a bitch' in message_content or 'sucks' in message_content:
+            if 'xxxtentacion' in message_content or 'xxx' in message_content:
+                await message.channel.send(f'''Ok buddy, {message.author}. 
+\nYou don't like Jah? Well hes kind of a god around these parts so you better be watching your god damn mouth, got it retard? 
+\nNext time im going to have to punish you. 
+\nJesus Christ.''')
+
+@client.listen()
+async def on_message(message):
+    if client.user.id != message.author.id:
+        message_content = message.content.lower()
+        if 'i dont like' in message_content or "i don't like" in message_content or 'i hate' in message_content or 'fuck' in message_content or 'is stupid' in message_content or 'is gay' in message_content or 'is dumb' in message_content or 'is retarded' in message_content or 'is a bitch' in message_content or 'sucks' in message_content:
+            if 'tobey maguire' in message_content or 'tobey' in message_content:
+                await message.channel.send(f'''Ok buddy, {message.author}. 
+\nYou don't like Tobey? Well hes kind of a god around these parts so you better be watching your god damn mouth, got it retard? 
+\nNext time im going to have to punish you. 
+\nJesus Christ.''')
+
+@client.listen()
+async def on_message(message):
+    if client.user.id != message.author.id:
+        message_content = message.content.lower()
+        if 'i dont like' in message_content or "i don't like" in message_content or 'i hate' in message_content or 'fuck' in message_content or 'is stupid' in message_content or 'is gay' in message_content or 'is dumb' in message_content or 'is retarded' in message_content or 'is a bitch' in message_content or 'sucks' in message_content:
+            if 'james franco' in message_content or 'sam rami' in message_content:
+                await message.channel.send(f'''Ok buddy, {message.author}. 
+\nYou don't like Him? Well hes kind of a god around these parts so you better be watching your god damn mouth, got it retard? 
+\nNext time im going to have to punish you. 
+\nJesus Christ.''')
+
+@client.listen()
+async def on_message(message):
+    if client.user.id != message.author.id:
+        message_content = message.content.lower()
+        if 'i dont like' in message_content or "i don't like" in message_content or 'i hate' in message_content or 'fuck' in message_content or 'is stupid' in message_content or 'is gay' in message_content or 'is dumb' in message_content or 'is retarded' in message_content or 'is a bitch' in message_content or 'sucks' in message_content:
+            if 'this server' in message_content or 'groovy' in message_content:
+                await message.channel.send(f'''Ok buddy, {message.author}. 
+\nYou don't like it here huh? Well around these parts you don't get to have dumass opinions so you better be watching your god damn mouth, got it retard? 
+\nNext time im going to have to punish you. 
+\nJesus Christ.''')
+
+@client.listen()
+async def on_message(message):
+    if client.user.id != message.author.id:
+        message_content = message.content.lower()
+        if 'i dont like' in message_content or "i don't like" in message_content or 'i hate' in message_content or 'fuck' in message_content or 'is stupid' in message_content or 'is gay' in message_content or 'is dumb' in message_content or 'is retarded' in message_content or 'is a bitch' in message_content or 'sucks' in message_content:
+            if 'gang weed' in message_content or 'mommy' in message_content or 'mom' in message_content:
+                await message.channel.send(f'''Ok buddy, {message.author}. 
+\nYou don't like our amazing bot? Well hes kind of a god around these parts so you better be watching your god damn mouth, got it retard? 
+\nNext time im going to have to punish you. 
+\nJesus Christ.''')
+
+@client.listen()
+async def on_message(message):
+    if client.user.id != message.author.id:
+        message_content = message.content.lower()
+        if 'i dont like' in message_content or "i don't like" in message_content or 'i hate' in message_content or 'fuck' in message_content or 'is stupid' in message_content or 'is gay' in message_content or 'is dumb' in message_content or 'is retarded' in message_content or 'is a bitch' in message_content or 'sucks' in message_content:
+            if 'eli' in message_content or 'ashton' in message_content:
+                await message.channel.send(f'''Ok buddy, {message.author}. 
+\nYou don't like our amazing leader? Well hes kind of a god around these parts so you better be watching your god damn mouth, got it retard? 
+\nNext time im going to have to punish you. 
+\nJesus Christ.''')
+
+
+# -------Good Boy Points Area--------------
+#--------Global Variables------------------
+Nico = 100
+nico_author = 'Thorin Oakenshield#9125'
+Eli = 100
+eli_author = "Perk#7536"
+Ashton = 100
+ashton_author = "I Will Digest You#5911"
+Lily = 100
+lily_author = 'Tolfvinc#7771'
+Enrique = 100
+enrique_author = 'slightlydisappointingtaco#4134'
+Kylie = 100
+kylie_author = 'dankly_mae.d#5759'
+Abbie = 100
+abbie_author = 'ahzee#5105'
+Luke = 100
+luke_author = 'TheTiggleBiggle#6982'
+Brandon = 100
+Charlie = 100
+Dan = 100
+dan_author = 'Jn#8163'
+JJ = 100
+jj_author = 'Jjames629#5422'
+Michael = 100
+Zameer = 100
+zameer_author = 'Kelpy G#5781'
+Logan = 100
+logan_author = 'Logan H#5902'
+HAXY = 100
+haxy_author = 'HAXY#3747'
+#------------------------------------------
+
+
+
+#This listens for people to ask how many GBP someone has, or listens to display a log of GBP via the keyword 'gbp log'
+@client.listen()
+async def on_message(message):
+    global Nico
+    global Eli
+    global Ashton
+    global Lily
+    global Enrique
+    global Kylie
+    global Abbie
+    global Luke
+    global Brandon
+    global Charlie
+    global Dan
+    global JJ
+    global Michael
+    global Zameer
+    global Logan
+    global HAXY
+
+    if 'how many gbp does nico have' in message.content.lower() != -1:
+        await message.channel.send(f'''Nico currently has {Nico} GBP''')
+
+    if 'how many gbp does eli have' in message.content.lower() != -1:
+        await message.channel.send(f'''Eli currently has {Eli} GBP''')
+
+    if 'how many gbp does ashton have' in message.content.lower() != -1:
+        await message.channel.send(f'''Ashton currently has {Ashton} GBP''')
+
+    if 'how many gbp does lily have' in message.content.lower() != -1:
+        await message.channel.send(f'''Lily currently has {Lily} GBP''')
+
+    if 'how many gbp does enrique have' in message.content.lower() != -1:
+        await message.channel.send(f'''Enrique currently has {Enrique} GBP''')
+
+    if 'how many gbp does kylie have' in message.content.lower() != -1:
+        await message.channel.send(f'''Kylie currently has {Kylie} GBP''')
+
+    if 'how many gbp does abbie have' in message.content.lower() != -1:
+        await message.channel.send(f'''Abbie currently has {Abbie} GBP''')
+
+    if 'how many gbp does luke have' in message.content.lower() != -1:
+        await message.channel.send(f'''Luke currently has {Luke} GBP''')
+
+    if 'how many gbp does brandon have' in message.content.lower() != -1:
+        await message.channel.send(f'''Brandon currently has {Brandon} GBP''')
+
+    if 'how many gbp does charlie have' in message.content.lower() != -1:
+        await message.channel.send(f'''Charlie currently has {Charlie} GBP''')
+
+    if 'how many gbp does nico have' in message.content.lower() != -1:
+        await message.channel.send(f'''Dan currently has {Dan} GBP''')
+
+    if 'how many gbp does jj have' in message.content.lower() != -1:
+        await message.channel.send(f'''JJ currently has {JJ} GBP''')
+
+    if 'how many gbp does michael have' in message.content.lower() != -1:
+        await message.channel.send(f'''Michael currently has {Michael} GBP''')
+
+    if 'how many gbp does zameer have' in message.content.lower() != -1:
+        await message.channel.send(f'''Zameer currently has {Zameer} GBP''')
+
+    if 'how many gbp does logan have' in message.content.lower() != -1:
+        await message.channel.send(f'''Logan currently has {Logan} GBP''')
+
+    if 'how many gbp does haxy have' in message.content.lower() != -1:
+        await message.channel.send(f'''HAXY currently has {HAXY} GBP''')
+
+
+        #the GBP log
+    if 'gbp log' in message.content.lower() != -1:
+        await message.channel.send('-------'
+            '\nNico - ' + str(Nico) + '\nEli - ' + str(Eli) + '\nAshton - ' + str(Ashton) + '\nLily - ' + str(
+                Lily) + '\nEnrique - ' + str(Enrique) +
+            '\nKylie - ' + str(Kylie) + '\nAbbie - ' + str(Abbie) + '\nLuke - ' + str(Luke) + '\nBrandon - ' + str(
+                Brandon) +
+            '\nCharlie - ' + str(Charlie) + '\nDan - ' + str(Dan) +
+            '\nJJ - ' + str(JJ) + '\nMichael - ' + str(Michael) + '\nZameer - ' + str(Zameer) + '\nLogan - ' + str(Logan) + "\nHAXY - " + str(HAXY) + "\n-------")
+
+
+
+#Allows for Transfer of GBP between different people
+@client.listen()
+async def on_message(message):
+    global Nico
+    global nico_author
+    global Eli
+    global eli_author
+    global Ashton
+    global ashton_author
+    global Lily
+    global lily_author
+    global Enrique
+    global enrique_author
+    global Kylie
+    global kylie_author
+    global Abbie
+    global abbie_author
+    global Luke
+    global luke_author
+    global Brandon
+    global Charlie
+    global Dan
+    global dan_author
+    global JJ
+    global jj_author
+    global Michael
+    global Zameer
+    global zameer_author
+    global Logan
+    global logan_author
+    global HAXY
+    global haxy_author
+    if str(message.author) == str(eli_author):
+        if "give" in message.content.lower() and 'gbp' in message.content.lower() != -1:
+
+            #index 0 should be 'give'
+            #index 1 shoud be the number of gbp
+            #index 2 should be 'gbp'
+            #index 3 should be 'to'
+            #index 4 should be the name of the person
+            split_msg = str(message.content).split()
+            print(type(Nico))
+            print(split_msg[0])
+            print(split_msg[1])
+            print(split_msg[2])
+            print(split_msg[3])
+            print(split_msg[4])
+            temp_gbp = int(split_msg[1])
+            temp_gbp = abs(temp_gbp)
+            print(temp_gbp)
+
+            #Allows Eli to Transfer GBP to anyone else
+            if int(split_msg[1]) <= int(Eli) and temp_gbp >= 0:
+                if split_msg[4].lower() == "nico":
+                    Nico += temp_gbp
+                    Eli -= temp_gbp
+                    await message.channel.send(f'Eli now has {Eli} GBP')
+                    await message.channel.send(f'Nico now has {Nico} GBP')
+
+                if split_msg[4].lower() == "ashton":
+                    Ashton += abs(temp_gbp)
+                    Eli -= abs(temp_gbp)
+                    await message.channel.send(f'Eli now has {Eli} GBP')
+                    await message.channel.send(f'Ashton now has {Ashton} GBP')
+
+                if split_msg[4].lower() == "lily":
+                    Lily += temp_gbp
+                    Eli -= temp_gbp
+                    await message.channel.send(f'Eli now has {Eli} GBP')
+                    await message.channel.send(f'Lily now has {Lily} GBP')
+
+                if split_msg[4].lower() == "enrique":
+                    Enrique += temp_gbp
+                    Eli -= temp_gbp
+                    await message.channel.send(f'Eli now has {Eli} GBP')
+                    await message.channel.send(f'Enrique now has {Enrique} GBP')
+
+                if split_msg[4].lower() == "kylie":
+                    Kylie += temp_gbp
+                    Eli -= temp_gbp
+                    await message.channel.send(f'Eli now has {Eli} GBP')
+                    await message.channel.send(f'Kylie now has {Kylie} GBP')
+
+                if split_msg[4].lower() == "abbie":
+                    Abbie += temp_gbp
+                    Eli -= temp_gbp
+                    await message.channel.send(f'Eli now has {Eli} GBP')
+                    await message.channel.send(f'Abbie now has {Abbie} GBP')
+
+                if split_msg[4].lower() == "luke":
+                    Luke += temp_gbp
+                    Eli -= temp_gbp
+                    await message.channel.send(f'Eli now has {Eli} GBP')
+                    await message.channel.send(f'Luke now has {Luke} GBP')
+
+                if split_msg[4].lower() == "brandon":
+                    Brandon += temp_gbp
+                    Eli -= temp_gbp
+                    await message.channel.send(f'Eli now has {Eli} GBP')
+                    await message.channel.send(f'Brandon now has {Brandon} GBP')
+
+                if split_msg[4].lower() == "charlie":
+                    Charlie += temp_gbp
+                    Eli -= temp_gbp
+                    await message.channel.send(f'Eli now has {Eli} GBP')
+                    await message.channel.send(f'Charlie now has {Charlie} GBP')
+
+                if split_msg[4].lower() == "dan":
+                    Dan += temp_gbp
+                    Eli -= temp_gbp
+                    await message.channel.send(f'Eli now has {Eli} GBP')
+                    await message.channel.send(f'Dan now has {Dan} GBP')
+
+                if split_msg[4].lower() == "jj":
+                    JJ += temp_gbp
+                    Eli -= temp_gbp
+                    await message.channel.send(f'Eli now has {Eli} GBP')
+                    await message.channel.send(f'JJ now has {JJ} GBP')
+
+                if split_msg[4].lower() == "michael":
+                    Michael += temp_gbp
+                    Eli -= temp_gbp
+                    await message.channel.send(f'Eli now has {Eli} GBP')
+                    await message.channel.send(f'Michael now has {Michael} GBP')
+
+                if split_msg[4].lower() == "zameer":
+                    Zameer += temp_gbp
+                    Eli -= temp_gbp
+                    await message.channel.send(f'Eli now has {Eli} GBP')
+                    await message.channel.send(f'Zameer now has {Zameer} GBP')
+
+                if split_msg[4].lower() == "logan":
+                    Logan += temp_gbp
+                    Eli -= temp_gbp
+                    await message.channel.send(f'Eli now has {Eli} GBP')
+                    await message.channel.send(f'Logan now has {Logan} GBP')
+
+                if split_msg[4].lower() == "haxy":
+                    HAXY += temp_gbp
+                    Eli -= temp_gbp
+                    await message.channel.send(f'Eli now has {Eli} GBP')
+                    await message.channel.send(f'HAXY now has {HAXY} GBP')
+
+            else:
+                await message.channel.send(f"Looks like you don't have enough GBP")
+
+
+
+     #Allows Ashton to transfer GBP to anybody else
+    if str(message.author) == str(ashton_author):
+        if "give" in message.content.lower() and 'gbp' in message.content.lower() != -1:
+
+            #index 0 should be 'give'
+            #index 1 shoud be the number of gbp
+            #index 2 should be 'gbp'
+            #index 3 should be 'to'
+            #index 4 should be the name of the person
+            split_msg = str(message.content).split()
+
+            print(split_msg[0])
+            print(split_msg[1])
+            print(split_msg[2])
+            print(split_msg[3])
+            print(split_msg[4])
+            temp_gbp = int(split_msg[1])
+            print(temp_gbp)
+            temp_gbp = abs(temp_gbp)
+            if int(split_msg[1]) <= int(Ashton) and temp_gbp >= 0:
+                if split_msg[4].lower() == "nico":
+                    Nico += temp_gbp
+                    Ashton -= temp_gbp
+                    await message.channel.send(f'Ashton now has {Ashton} GBP')
+                    await message.channel.send(f'Nico now has {Nico} GBP')
+
+                if split_msg[4].lower() == "eli":
+                    Eli += temp_gbp
+                    Ashton -= temp_gbp
+                    await message.channel.send(f'Ashton now has {Ashton} GBP')
+                    await message.channel.send(f'Eli now has {Eli} GBP')
+
+                if split_msg[4].lower() == "lily":
+                    Lily += temp_gbp
+                    Ashton -= temp_gbp
+                    await message.channel.send(f'Ashton now has {Ashton} GBP')
+                    await message.channel.send(f'Lily now has {Lily} GBP')
+
+                if split_msg[4].lower() == "enrique":
+                    Enrique += temp_gbp
+                    Ashton -= temp_gbp
+                    await message.channel.send(f'Ashton now has {Ashton} GBP')
+                    await message.channel.send(f'Enrique now has {Enrique} GBP')
+
+                if split_msg[4].lower() == "kylie":
+                    Kylie += temp_gbp
+                    Ashton -= temp_gbp
+                    await message.channel.send(f'Ashton now has {Ashton} GBP')
+                    await message.channel.send(f'Kylie now has {Kylie} GBP')
+
+                if split_msg[4].lower() == "abbie":
+                    Abbie += temp_gbp
+                    Ashton -= temp_gbp
+                    await message.channel.send(f'Ashton now has {Ashton} GBP')
+                    await message.channel.send(f'Abbie now has {Abbie} GBP')
+
+                if split_msg[4].lower() == "luke":
+                    Luke += temp_gbp
+                    Ashton -= temp_gbp
+                    await message.channel.send(f'Ashton now has {Ashton} GBP')
+                    await message.channel.send(f'Luke now has {Luke} GBP')
+
+                if split_msg[4].lower() == "brandon":
+                    Brandon += temp_gbp
+                    Ashton -= temp_gbp
+                    await message.channel.send(f'Ashton now has {Ashton} GBP')
+                    await message.channel.send(f'Brandon now has {Brandon} GBP')
+
+                if split_msg[4].lower() == "charlie":
+                    Charlie += temp_gbp
+                    Ashton -= temp_gbp
+                    await message.channel.send(f'Ashton now has {Ashton} GBP')
+                    await message.channel.send(f'Charlie now has {Charlie} GBP')
+
+                if split_msg[4].lower() == "dan":
+                    Dan += temp_gbp
+                    Ashton -= temp_gbp
+                    await message.channel.send(f'Ashton now has {Ashton} GBP')
+                    await message.channel.send(f'Dan now has {Dan} GBP')
+
+                if split_msg[4].lower() == "jj":
+                    JJ += temp_gbp
+                    Ashton -= temp_gbp
+                    await message.channel.send(f'Ashton now has {Ashton} GBP')
+                    await message.channel.send(f'JJ now has {JJ} GBP')
+
+                if split_msg[4].lower() == "michael":
+                    Michael += temp_gbp
+                    Ashton -= temp_gbp
+                    await message.channel.send(f'Ashton now has {Ashton} GBP')
+                    await message.channel.send(f'Michael now has {Michael} GBP')
+
+                if split_msg[4].lower() == "zameer":
+                    Zameer += temp_gbp
+                    Ashton -= temp_gbp
+                    await message.channel.send(f'Ashton now has {Ashton} GBP')
+                    await message.channel.send(f'Zameer now has {Zameer} GBP')
+
+                if split_msg[4].lower() == "logan":
+                    Logan += temp_gbp
+                    Ashton -= temp_gbp
+                    await message.channel.send(f'Ashton now has {Ashton} GBP')
+                    await message.channel.send(f'Logan now has {Logan} GBP')
+
+                if split_msg[4].lower() == "haxy":
+                    HAXY += temp_gbp
+                    Ashton -= temp_gbp
+                    await message.channel.send(f'Ashton now has {Ashton} GBP')
+                    await message.channel.send(f'HAXY now has {HAXY} GBP')
+
+            else:
+                await message.channel.send(f"Looks like you don't have enough GBP")
+
+
+
+    #Allows Kylie to transfer GBP to anybody else
+    if str(message.author) == str(kylie_author):
+        if "give" in message.content.lower() and 'gbp' in message.content.lower() != -1:
+
+            #index 0 should be 'give'
+            #index 1 shoud be the number of gbp
+            #index 2 should be 'gbp'
+            #index 3 should be 'to'
+            #index 4 should be the name of the person
+            split_msg = str(message.content).split()
+            print(type(Nico))
+            print(split_msg[0])
+            print(split_msg[1])
+            print(split_msg[2])
+            print(split_msg[3])
+            print(split_msg[4])
+            temp_gbp = int(split_msg[1])
+            print(temp_gbp)
+            temp_gbp = abs(temp_gbp)
+            if int(split_msg[1]) <= int(Kylie) and temp_gbp >= 0:
+                if split_msg[4].lower() == "nico":
+                    Nico += temp_gbp
+                    Kylie -= temp_gbp
+                    await message.channel.send(f'Kylie now has {Kylie} GBP')
+                    await message.channel.send(f'Nico now has {Nico} GBP')
+
+                if split_msg[4].lower() == "ashton":
+                    Ashton += temp_gbp
+                    Kylie -= temp_gbp
+                    await message.channel.send(f'Kylie now has {Kylie} GBP')
+                    await message.channel.send(f'Ashton now has {Ashton} GBP')
+
+                if split_msg[4].lower() == "lily":
+                    Lily += temp_gbp
+                    Kylie -= temp_gbp
+                    await message.channel.send(f'Kylie now has {Kylie} GBP')
+                    await message.channel.send(f'Lily now has {Lily} GBP')
+
+                if split_msg[4].lower() == "enrique":
+                    Enrique += temp_gbp
+                    Kylie -= temp_gbp
+                    await message.channel.send(f'Kylie now has {Kylie} GBP')
+                    await message.channel.send(f'Enrique now has {Enrique} GBP')
+
+                if split_msg[4].lower() == "eli":
+                    Eli += temp_gbp
+                    Kylie -= temp_gbp
+                    await message.channel.send(f'Kylie now has {Kylie} GBP')
+                    await message.channel.send(f'Eli now has {Eli} GBP')
+
+                if split_msg[4].lower() == "abbie":
+                    Abbie += temp_gbp
+                    Kylie -= temp_gbp
+                    await message.channel.send(f'Kylie now has {Kylie} GBP')
+                    await message.channel.send(f'Abbie now has {Abbie} GBP')
+
+                if split_msg[4].lower() == "luke":
+                    Luke += temp_gbp
+                    Kylie -= temp_gbp
+                    await message.channel.send(f'Kylie now has {Kylie} GBP')
+                    await message.channel.send(f'Luke now has {Luke} GBP')
+
+                if split_msg[4].lower() == "brandon":
+                    Brandon += temp_gbp
+                    Kylie -= temp_gbp
+                    await message.channel.send(f'Kylie now has {Kylie} GBP')
+                    await message.channel.send(f'Brandon now has {Brandon} GBP')
+
+                if split_msg[4].lower() == "charlie":
+                    Charlie += temp_gbp
+                    Kylie -= temp_gbp
+                    await message.channel.send(f'Kylie now has {Kylie} GBP')
+                    await message.channel.send(f'Charlie now has {Charlie} GBP')
+
+                if split_msg[4].lower() == "dan":
+                    Dan += temp_gbp
+                    Kylie -= temp_gbp
+                    await message.channel.send(f'Kylie now has {Kylie} GBP')
+                    await message.channel.send(f'Dan now has {Dan} GBP')
+
+                if split_msg[4].lower() == "jj":
+                    JJ += temp_gbp
+                    Kylie -= temp_gbp
+                    await message.channel.send(f'Kylie now has {Kylie} GBP')
+                    await message.channel.send(f'JJ now has {JJ} GBP')
+
+                if split_msg[4].lower() == "michael":
+                    Michael += temp_gbp
+                    Kylie -= temp_gbp
+                    await message.channel.send(f'Kylie now has {Kylie} GBP')
+                    await message.channel.send(f'Michael now has {Michael} GBP')
+
+                if split_msg[4].lower() == "zameer":
+                    Zameer += temp_gbp
+                    Kylie -= temp_gbp
+                    await message.channel.send(f'Kylie now has {Kylie} GBP')
+                    await message.channel.send(f'Zameer now has {Zameer} GBP')
+
+                if split_msg[4].lower() == "logan":
+                    Logan += temp_gbp
+                    Kylie -= temp_gbp
+                    await message.channel.send(f'Kylie now has {Kylie} GBP')
+                    await message.channel.send(f'Logan now has {Logan} GBP')
+
+                if split_msg[4].lower() == "haxy":
+                    HAXY += temp_gbp
+                    Kylie -= temp_gbp
+                    await message.channel.send(f'Kylie now has {Kylie} GBP')
+                    await message.channel.send(f'HAXY now has {HAXY} GBP')
+
+            else:
+                await message.channel.send(f"Looks like you don't have enough GBP")
+
+
+
+    #Allows Zameer to transfer GBP
+    if str(message.author) == str(zameer_author):
+        if "give" in message.content.lower() and 'gbp' in message.content.lower() != -1:
+
+            #index 0 should be 'give'
+            #index 1 shoud be the number of gbp
+            #index 2 should be 'gbp'
+            #index 3 should be 'to'
+            #index 4 should be the name of the person
+            split_msg = str(message.content).split()
+            print(type(Nico))
+            print(split_msg[0])
+            print(split_msg[1])
+            print(split_msg[2])
+            print(split_msg[3])
+            print(split_msg[4])
+            temp_gbp = int(split_msg[1])
+            print(temp_gbp)
+            temp_gbp = abs(temp_gbp)
+            if int(split_msg[1]) <= int(Zameer) and temp_gbp >= 0:
+                if split_msg[4].lower() == "nico":
+                    Nico += temp_gbp
+                    Zameer -= temp_gbp
+                    await message.channel.send(f'Zameer now has {Eli} GBP')
+                    await message.channel.send(f'Nico now has {Nico} GBP')
+                if split_msg[4].lower() == "ashton":
+                    Ashton += temp_gbp
+                    Zameer -= temp_gbp
+                    await message.channel.send(f'Zameer now has {Zameer} GBP')
+                    await message.channel.send(f'Ashton now has {Ashton} GBP')
+                if split_msg[4].lower() == "lily":
+                    Lily += temp_gbp
+                    Zameer -= temp_gbp
+                    await message.channel.send(f'Zameer now has {Zameer} GBP')
+                    await message.channel.send(f'Lily now has {Lily} GBP')
+                if split_msg[4].lower() == "enrique":
+                    Enrique += temp_gbp
+                    Zameer -= temp_gbp
+                    await message.channel.send(f'Zameer now has {Zameer} GBP')
+                    await message.channel.send(f'Enrique now has {Enrique} GBP')
+                if split_msg[4].lower() == "kylie":
+                    Kylie += temp_gbp
+                    Zameer -= temp_gbp
+                    await message.channel.send(f'Zameer now has {Zameer} GBP')
+                    await message.channel.send(f'Kylie now has {Kylie} GBP')
+                if split_msg[4].lower() == "abbie":
+                    Abbie += temp_gbp
+                    Zameer -= temp_gbp
+                    await message.channel.send(f'Zameer now has {Zameer} GBP')
+                    await message.channel.send(f'Abbie now has {Abbie} GBP')
+                if split_msg[4].lower() == "luke":
+                    Luke += temp_gbp
+                    Zameer -= temp_gbp
+                    await message.channel.send(f'Zameer now has {Zameer} GBP')
+                    await message.channel.send(f'Luke now has {Luke} GBP')
+                if split_msg[4].lower() == "brandon":
+                    Brandon += temp_gbp
+                    Zameer -= temp_gbp
+                    await message.channel.send(f'Zameer now has {Zameer} GBP')
+                    await message.channel.send(f'Brandon now has {Brandon} GBP')
+                if split_msg[4].lower() == "charlie":
+                    Charlie += temp_gbp
+                    Zameer -= temp_gbp
+                    await message.channel.send(f'Zameer now has {Zameer} GBP')
+                    await message.channel.send(f'Charlie now has {Charlie} GBP')
+                if split_msg[4].lower() == "dan":
+                    Dan += temp_gbp
+                    Zameer -= temp_gbp
+                    await message.channel.send(f'Zameer now has {Zameer} GBP')
+                    await message.channel.send(f'Dan now has {Dan} GBP')
+                if split_msg[4].lower() == "jj":
+                    JJ += temp_gbp
+                    Zameer -= temp_gbp
+                    await message.channel.send(f'Zameer now has {Zameer} GBP')
+                    await message.channel.send(f'JJ now has {JJ} GBP')
+                if split_msg[4].lower() == "michael":
+                    Michael += temp_gbp
+                    Zameer -= temp_gbp
+                    await message.channel.send(f'Zameer now has {Zameer} GBP')
+                    await message.channel.send(f'Michael now has {Michael} GBP')
+                if split_msg[4].lower() == "zameer":
+                    Eli += temp_gbp
+                    Zameer -= temp_gbp
+                    await message.channel.send(f'Zameer now has {Zameer} GBP')
+                    await message.channel.send(f'Eli now has {Eli} GBP')
+
+                if split_msg[4].lower() == "logan":
+                    Logan += temp_gbp
+                    Zameer -= temp_gbp
+                    await message.channel.send(f'Zameer now has {Zameer} GBP')
+                    await message.channel.send(f'Logan now has {Logan} GBP')
+
+                if split_msg[4].lower() == "haxy":
+                    HAXY += temp_gbp
+                    Zameer -= temp_gbp
+                    await message.channel.send(f'Zameer now has {Zameer} GBP')
+                    await message.channel.send(f'HAXY now has {HAXY} GBP')
+
+
+            else:
+                await message.channel.send(f"Looks like you don't have enough GBP")
+
+
+    #Allows Dan to transfer GBP
+    if str(message.author) == str(dan_author):
+        if "give" in message.content.lower() and 'gbp' in message.content.lower() != -1:
+
+            #index 0 should be 'give'
+            #index 1 shoud be the number of gbp
+            #index 2 should be 'gbp'
+            #index 3 should be 'to'
+            #index 4 should be the name of the person
+            split_msg = str(message.content).split()
+            print(type(Nico))
+            print(split_msg[0])
+            print(split_msg[1])
+            print(split_msg[2])
+            print(split_msg[3])
+            print(split_msg[4])
+            temp_gbp = int(split_msg[1])
+            print(temp_gbp)
+            temp_gbp = abs(temp_gbp)
+            if int(split_msg[1]) <= int(Dan) and temp_gbp >= 0:
+                if split_msg[4].lower() == "nico":
+                    Nico += temp_gbp
+                    Dan -= temp_gbp
+                    await message.channel.send(f'Dan now has {Dan} GBP')
+                    await message.channel.send(f'Nico now has {Nico} GBP')
+                if split_msg[4].lower() == "ashton":
+                    Ashton += temp_gbp
+                    Dan -= temp_gbp
+                    await message.channel.send(f'Dan now has {Dan} GBP')
+                    await message.channel.send(f'Ashton now has {Ashton} GBP')
+                if split_msg[4].lower() == "lily":
+                    Lily += temp_gbp
+                    Dan -= temp_gbp
+                    await message.channel.send(f'Dan now has {Dan} GBP')
+                    await message.channel.send(f'Lily now has {Lily} GBP')
+                if split_msg[4].lower() == "enrique":
+                    Enrique += temp_gbp
+                    Dan -= temp_gbp
+                    await message.channel.send(f'Dan now has {Dan} GBP')
+                    await message.channel.send(f'Enrique now has {Enrique} GBP')
+                if split_msg[4].lower() == "kylie":
+                    Kylie += temp_gbp
+                    Dan -= temp_gbp
+                    await message.channel.send(f'Dan now has {Dan} GBP')
+                    await message.channel.send(f'Kylie now has {Kylie} GBP')
+                if split_msg[4].lower() == "abbie":
+                    Abbie += temp_gbp
+                    Dan -= temp_gbp
+                    await message.channel.send(f'Dan now has {Dan} GBP')
+                    await message.channel.send(f'Abbie now has {Abbie} GBP')
+                if split_msg[4].lower() == "luke":
+                    Luke += temp_gbp
+                    Dan -= temp_gbp
+                    await message.channel.send(f'Dan now has {Dan} GBP')
+                    await message.channel.send(f'Luke now has {Luke} GBP')
+                if split_msg[4].lower() == "brandon":
+                    Brandon += temp_gbp
+                    Dan -= temp_gbp
+                    await message.channel.send(f'Dan now has {Dan} GBP')
+                    await message.channel.send(f'Brandon now has {Brandon} GBP')
+                if split_msg[4].lower() == "charlie":
+                    Charlie += temp_gbp
+                    Dan -= temp_gbp
+                    await message.channel.send(f'Dan now has {Dan} GBP')
+                    await message.channel.send(f'Charlie now has {Charlie} GBP')
+                if split_msg[4].lower() == "dan":
+                    Zameer += temp_gbp
+                    Dan -= temp_gbp
+                    await message.channel.send(f'Dan now has {Dan} GBP')
+                    await message.channel.send(f'Zameer now has {Zameer} GBP')
+                if split_msg[4].lower() == "jj":
+                    JJ += temp_gbp
+                    Dan -= temp_gbp
+                    await message.channel.send(f'Dan now has {Dan} GBP')
+                    await message.channel.send(f'JJ now has {JJ} GBP')
+                if split_msg[4].lower() == "michael":
+                    Michael += temp_gbp
+                    Dan -= temp_gbp
+                    await message.channel.send(f'Dan now has {Dan} GBP')
+                    await message.channel.send(f'Michael now has {Michael} GBP')
+                if split_msg[4].lower() == "zameer":
+                    Eli += temp_gbp
+                    Dan -= temp_gbp
+                    await message.channel.send(f'Dan now has {Dan} GBP')
+                    await message.channel.send(f'Eli now has {Eli} GBP')
+
+                if split_msg[4].lower() == "logan":
+                    Logan += temp_gbp
+                    Dan -= temp_gbp
+                    await message.channel.send(f'Dan now has {Dan} GBP')
+                    await message.channel.send(f'Logan now has {Logan} GBP')
+
+                if split_msg[4].lower() == "haxy":
+                    HAXY += temp_gbp
+                    Dan -= temp_gbp
+                    await message.channel.send(f'Dan now has {Dan} GBP')
+                    await message.channel.send(f'HAXY now has {HAXY} GBP')
+
+
+            else:
+                await message.channel.send(f"Looks like you don't have enough GBP")
+
+
+
+    #Allows JJ to transfer GBP
+    if str(message.author) == str(jj_author):
+        if "give" in message.content.lower() and 'gbp' in message.content.lower() != -1:
+
+            #index 0 should be 'give'
+            #index 1 shoud be the number of gbp
+            #index 2 should be 'gbp'
+            #index 3 should be 'to'
+            #index 4 should be the name of the person
+            split_msg = str(message.content).split()
+            print(split_msg[0])
+            print(split_msg[1])
+            print(split_msg[2])
+            print(split_msg[3])
+            print(split_msg[4])
+            temp_gbp = int(split_msg[1])
+            print(temp_gbp)
+            temp_gbp = abs(temp_gbp)
+            if int(split_msg[1]) <= int(JJ) and temp_gbp >= 0:
+                if split_msg[4].lower() == "nico":
+                    Nico += temp_gbp
+                    JJ -= temp_gbp
+                    await message.channel.send(f'JJ now has {JJ} GBP')
+                    await message.channel.send(f'Nico now has {Nico} GBP')
+                if split_msg[4].lower() == "ashton":
+                    Ashton += temp_gbp
+                    JJ -= temp_gbp
+                    await message.channel.send(f'JJ now has {JJ} GBP')
+                    await message.channel.send(f'Ashton now has {Ashton} GBP')
+                if split_msg[4].lower() == "lily":
+                    Lily += temp_gbp
+                    JJ -= temp_gbp
+                    await message.channel.send(f'JJ now has {JJ} GBP')
+                    await message.channel.send(f'Lily now has {Lily} GBP')
+                if split_msg[4].lower() == "enrique":
+                    Enrique += temp_gbp
+                    JJ -= temp_gbp
+                    await message.channel.send(f'JJ now has {JJ} GBP')
+                    await message.channel.send(f'Enrique now has {Enrique} GBP')
+                if split_msg[4].lower() == "kylie":
+                    Kylie += temp_gbp
+                    JJ -= temp_gbp
+                    await message.channel.send(f'JJ now has {JJ} GBP')
+                    await message.channel.send(f'Kylie now has {Kylie} GBP')
+                if split_msg[4].lower() == "abbie":
+                    Abbie += temp_gbp
+                    JJ -= temp_gbp
+                    await message.channel.send(f'JJ now has {JJ} GBP')
+                    await message.channel.send(f'Abbie now has {Abbie} GBP')
+                if split_msg[4].lower() == "luke":
+                    Luke += temp_gbp
+                    JJ -= temp_gbp
+                    await message.channel.send(f'JJ now has {JJ} GBP')
+                    await message.channel.send(f'Luke now has {Luke} GBP')
+                if split_msg[4].lower() == "brandon":
+                    Brandon += temp_gbp
+                    JJ -= temp_gbp
+                    await message.channel.send(f'JJ now has {JJ} GBP')
+                    await message.channel.send(f'Brandon now has {Brandon} GBP')
+                if split_msg[4].lower() == "charlie":
+                    Charlie += temp_gbp
+                    JJ -= temp_gbp
+                    await message.channel.send(f'JJ now has {JJ} GBP')
+                    await message.channel.send(f'Charlie now has {Charlie} GBP')
+                if split_msg[4].lower() == "zameer":
+                    Zameer += temp_gbp
+                    JJ -= temp_gbp
+                    await message.channel.send(f'JJ now has {JJ} GBP')
+                    await message.channel.send(f'Zameer now has {Zameer} GBP')
+                if split_msg[4].lower() == "dan":
+                    Dan += temp_gbp
+                    JJ -= temp_gbp
+                    await message.channel.send(f'JJ now has {JJ} GBP')
+                    await message.channel.send(f'Dan now has {Dan} GBP')
+                if split_msg[4].lower() == "michael":
+                    Michael += temp_gbp
+                    JJ -= temp_gbp
+                    await message.channel.send(f'JJ now has {JJ} GBP')
+                    await message.channel.send(f'Michael now has {Michael} GBP')
+                if split_msg[4].lower() == "eli":
+                    Eli += temp_gbp
+                    JJ -= temp_gbp
+                    await message.channel.send(f'JJ now has {JJ} GBP')
+                    await message.channel.send(f'Eli now has {Eli} GBP')
+
+                if split_msg[4].lower() == "logan":
+                    Logan += temp_gbp
+                    JJ -= temp_gbp
+                    await message.channel.send(f'JJ now has {JJ} GBP')
+                    await message.channel.send(f'Logan now has {Logan} GBP')
+
+                if split_msg[4].lower() == "haxy":
+                    HAXY += temp_gbp
+                    JJ -= temp_gbp
+                    await message.channel.send(f'JJ now has {JJ} GBP')
+                    await message.channel.send(f'HAXY now has {HAXY} GBP')
+
+
+
+            else:
+                await message.channel.send(f"Looks like you don't have enough GBP")
+
+
+
+     #Allows Luke to transfer GBP
+    if str(message.author) == str(luke_author):
+        if "give" in message.content.lowe() and 'gbp' in message.content.lower() != -1:
+
+            #index 0 should be 'give'
+            #index 1 shoud be the number of gbp
+            #index 2 should be 'gbp'
+            #index 3 should be 'to'
+            #index 4 should be the name of the person
+            split_msg = str(message.content).split()
+            print(split_msg[0])
+            print(split_msg[1])
+            print(split_msg[2])
+            print(split_msg[3])
+            print(split_msg[4])
+            temp_gbp = int(split_msg[1])
+            print(temp_gbp)
+            temp_gbp = abs(temp_gbp)
+            if int(split_msg[1]) <= int(Luke) and temp_gbp >= 0:
+                if split_msg[4].lower() == "nico":
+                    Nico += temp_gbp
+                    Luke -= temp_gbp
+                    await message.channel.send(f'Luke now has {Luke} GBP')
+                    await message.channel.send(f'Nico now has {Nico} GBP')
+                if split_msg[4].lower() == "ashton":
+                    Ashton += temp_gbp
+                    Luke -= temp_gbp
+                    await message.channel.send(f'Luke now has {Luke} GBP')
+                    await message.channel.send(f'Ashton now has {Ashton} GBP')
+                if split_msg[4].lower() == "lily":
+                    Lily += temp_gbp
+                    Luke -= temp_gbp
+                    await message.channel.send(f'Luke now has {Luke} GBP')
+                    await message.channel.send(f'Lily now has {Lily} GBP')
+                if split_msg[4].lower() == "enrique":
+                    Enrique += temp_gbp
+                    Luke -= temp_gbp
+                    await message.channel.send(f'Luke now has {Luke} GBP')
+                    await message.channel.send(f'Enrique now has {Enrique} GBP')
+                if split_msg[4].lower() == "kylie":
+                    Kylie += temp_gbp
+                    Luke -= temp_gbp
+                    await message.channel.send(f'Luke now has {Luke} GBP')
+                    await message.channel.send(f'Kylie now has {Kylie} GBP')
+                if split_msg[4].lower() == "abbie":
+                    Abbie += temp_gbp
+                    Luke -= temp_gbp
+                    await message.channel.send(f'Luke now has {Luke} GBP')
+                    await message.channel.send(f'Abbie now has {Abbie} GBP')
+                if split_msg[4].lower() == "luke":
+                    JJ += temp_gbp
+                    Luke -= temp_gbp
+                    await message.channel.send(f'Luke now has {Luke} GBP')
+                    await message.channel.send(f'JJ now has {JJ} GBP')
+                if split_msg[4].lower() == "brandon":
+                    Brandon += temp_gbp
+                    Luke -= temp_gbp
+                    await message.channel.send(f'Luke now has {Luke} GBP')
+                    await message.channel.send(f'Brandon now has {Brandon} GBP')
+                if split_msg[4].lower() == "charlie":
+                    Charlie += temp_gbp
+                    Luke -= temp_gbp
+                    await message.channel.send(f'Luke now has {Luke} GBP')
+                    await message.channel.send(f'Charlie now has {Charlie} GBP')
+                if split_msg[4].lower() == "dan":
+                    Zameer += temp_gbp
+                    Luke -= temp_gbp
+                    await message.channel.send(f'Luke now has {Luke} GBP')
+                    await message.channel.send(f'Zameer now has {Zameer} GBP')
+                if split_msg[4].lower() == "jj":
+                    Dan += temp_gbp
+                    Luke -= temp_gbp
+                    await message.channel.send(f'Luke now has {Luke} GBP')
+                    await message.channel.send(f'Dan now has {Dan} GBP')
+                if split_msg[4].lower() == "michael":
+                    Michael += temp_gbp
+                    Luke -= temp_gbp
+                    await message.channel.send(f'Luke now has {Luke} GBP')
+                    await message.channel.send(f'Michael now has {Michael} GBP')
+                if split_msg[4].lower() == "zameer":
+                    Eli += temp_gbp
+                    Luke -= temp_gbp
+                    await message.channel.send(f'Luke now has {Luke} GBP')
+                    await message.channel.send(f'Eli now has {Eli} GBP')
+
+                if split_msg[4].lower() == "logan":
+                    Logan += temp_gbp
+                    Luke -= temp_gbp
+                    await message.channel.send(f'Luke now has {Luke} GBP')
+                    await message.channel.send(f'Logan now has {Logan} GBP')
+
+                if split_msg[4].lower() == "haxy":
+                    HAXY += temp_gbp
+                    Luke -= temp_gbp
+                    await message.channel.send(f'Luke now has {Luke} GBP')
+                    await message.channel.send(f'HAXY now has {HAXY} GBP')
+
+
+            else:
+                await message.channel.send(f"Looks like you don't have enough GBP")
+
+
+
+    #Allows Logan to transfer GBP
+    if str(message.author) == str(logan_author):
+        if "give" in message.content.lower() and 'gbp' in message.content.lower() != -1:
+            #index 0 should be 'give'
+            #index 1 shoud be the number of gbp
+            #index 2 should be 'gbp'
+            #index 3 should be 'to'
+            #index 4 should be the name of the person
+            split_msg = str(message.content).split()
+            print(split_msg[0])
+            print(split_msg[1])
+            print(split_msg[2])
+            print(split_msg[3])
+            print(split_msg[4])
+            temp_gbp = int(split_msg[1])
+            print(temp_gbp)
+            temp_gbp = abs(temp_gbp)
+            if int(split_msg[1]) <= int(Logan) and temp_gbp >= 0:
+                if split_msg[4].lower() == "nico":
+                    Nico += temp_gbp
+                    Logan -= temp_gbp
+                    await message.channel.send(f'Logan now has {Logan} GBP')
+                    await message.channel.send(f'Nico now has {Nico} GBP')
+                if split_msg[4].lower() == "ashton":
+                    Ashton += temp_gbp
+                    Logan -= temp_gbp
+                    await message.channel.send(f'Logan now has {Logan} GBP')
+                    await message.channel.send(f'Ashton now has {Ashton} GBP')
+                if split_msg[4].lower() == "lily":
+                    Lily += temp_gbp
+                    Logan -= temp_gbp
+                    await message.channel.send(f'Logan now has {Logan} GBP')
+                    await message.channel.send(f'Lily now has {Lily} GBP')
+                if split_msg[4].lower() == "enrique":
+                    Enrique += temp_gbp
+                    Logan -= temp_gbp
+                    await message.channel.send(f'Logan now has {Logan} GBP')
+                    await message.channel.send(f'Enrique now has {Enrique} GBP')
+                if split_msg[4].lower() == "kylie":
+                    Kylie += temp_gbp
+                    Logan -= temp_gbp
+                    await message.channel.send(f'Logan now has {Logan} GBP')
+                    await message.channel.send(f'Kylie now has {Kylie} GBP')
+                if split_msg[4].lower() == "abbie":
+                    Abbie += temp_gbp
+                    Logan -= temp_gbp
+                    await message.channel.send(f'Logan now has {Logan} GBP')
+                    await message.channel.send(f'Abbie now has {Abbie} GBP')
+                if split_msg[4].lower() == "luke":
+                    JJ += temp_gbp
+                    Logan -= temp_gbp
+                    await message.channel.send(f'Logan now has {Logan} GBP')
+                    await message.channel.send(f'JJ now has {JJ} GBP')
+                if split_msg[4].lower() == "brandon":
+                    Brandon += temp_gbp
+                    Logan -= temp_gbp
+                    await message.channel.send(f'Logan now has {Logan} GBP')
+                    await message.channel.send(f'Brandon now has {Brandon} GBP')
+                if split_msg[4].lower() == "charlie":
+                    Charlie += temp_gbp
+                    Logan -= temp_gbp
+                    await message.channel.send(f'Logan now has {Logan} GBP')
+                    await message.channel.send(f'Charlie now has {Charlie} GBP')
+                if split_msg[4].lower() == "dan":
+                    Zameer += temp_gbp
+                    Logan -= temp_gbp
+                    await message.channel.send(f'Logan now has {Logan} GBP')
+                    await message.channel.send(f'Zameer now has {Zameer} GBP')
+                if split_msg[4].lower() == "jj":
+                    Dan += temp_gbp
+                    Logan -= temp_gbp
+                    await message.channel.send(f'Logan now has {Logan} GBP')
+                    await message.channel.send(f'Dan now has {Dan} GBP')
+                if split_msg[4].lower() == "michael":
+                    Michael += temp_gbp
+                    Logan -= temp_gbp
+                    await message.channel.send(f'Logan now has {Logan} GBP')
+                    await message.channel.send(f'Michael now has {Michael} GBP')
+                if split_msg[4].lower() == "zameer":
+                    Eli += temp_gbp
+                    Logan -= temp_gbp
+                    await message.channel.send(f'Logan now has {Logan} GBP')
+                    await message.channel.send(f'Eli now has {Eli} GBP')
+
+                if split_msg[4].lower() == "logan":
+                    Luke += temp_gbp
+                    Logan -= temp_gbp
+                    await message.channel.send(f'Logan now has {Logan} GBP')
+                    await message.channel.send(f'Luke now has {Luke} GBP')
+
+                if split_msg[4].lower() == "haxy":
+                    HAXY += temp_gbp
+                    Logan -= temp_gbp
+                    await message.channel.send(f'Logan now has {Logan} GBP')
+                    await message.channel.send(f'HAXY now has {HAXY} GBP')
+
+
+            else:
+                await message.channel.send(f"Looks like you don't have enough GBP")
+
+
+
+    #Allows Abbie to tranfer GBP
+    if str(message.author) == str(abbie_author):
+        if "give" in message.content.lower() and 'gbp' in message.content.lower() != -1:
+
+            #index 0 should be 'give'
+            #index 1 shoud be the number of gbp
+            #index 2 should be 'gbp'
+            #index 3 should be 'to'
+            #index 4 should be the name of the person
+            split_msg = str(message.content).split()
+            print(split_msg[0])
+            print(split_msg[1])
+            print(split_msg[2])
+            print(split_msg[3])
+            print(split_msg[4])
+            temp_gbp = int(split_msg[1])
+            print(temp_gbp)
+            temp_gbp = abs(temp_gbp)
+            if int(split_msg[1]) <= int(Abbie) and temp_gbp >= 0:
+                if split_msg[4].lower() == "nico":
+                    Nico += temp_gbp
+                    Abbie -= temp_gbp
+                    await message.channel.send(f'Abbie now has {Abbie} GBP')
+                    await message.channel.send(f'Nico now has {Nico} GBP')
+                if split_msg[4].lower() == "ashton":
+                    Ashton += temp_gbp
+                    Abbie -= temp_gbp
+                    await message.channel.send(f'Abbie now has {Abbie} GBP')
+                    await message.channel.send(f'Ashton now has {Ashton} GBP')
+                if split_msg[4].lower() == "lily":
+                    Lily += temp_gbp
+                    Abbie -= temp_gbp
+                    await message.channel.send(f'Abbie now has {Abbie} GBP')
+                    await message.channel.send(f'Lily now has {Lily} GBP')
+                if split_msg[4].lower() == "enrique":
+                    Enrique += temp_gbp
+                    Abbie -= temp_gbp
+                    await message.channel.send(f'Abbie now has {Abbie} GBP')
+                    await message.channel.send(f'Enrique now has {Enrique} GBP')
+                if split_msg[4].lower() == "kylie":
+                    Kylie += temp_gbp
+                    Abbie -= temp_gbp
+                    await message.channel.send(f'Abbie now has {Abbie} GBP')
+                    await message.channel.send(f'Kylie now has {Kylie} GBP')
+                if split_msg[4].lower() == "abbie":
+                    Logan += temp_gbp
+                    Abbie -= temp_gbp
+                    await message.channel.send(f'Abbie now has {Abbie} GBP')
+                    await message.channel.send(f'Logan now has {Logan} GBP')
+                if split_msg[4].lower() == "luke":
+                    JJ += temp_gbp
+                    Abbie -= temp_gbp
+                    await message.channel.send(f'Abbie now has {Abbie} GBP')
+                    await message.channel.send(f'JJ now has {JJ} GBP')
+                if split_msg[4].lower() == "brandon":
+                    Brandon += temp_gbp
+                    Abbie -= temp_gbp
+                    await message.channel.send(f'Abbie now has {Abbie} GBP')
+                    await message.channel.send(f'Brandon now has {Brandon} GBP')
+                if split_msg[4].lower() == "charlie":
+                    Charlie += temp_gbp
+                    Abbie -= temp_gbp
+                    await message.channel.send(f'Abbie now has {Abbie} GBP')
+                    await message.channel.send(f'Charlie now has {Charlie} GBP')
+                if split_msg[4].lower() == "dan":
+                    Zameer += temp_gbp
+                    Abbie -= temp_gbp
+                    await message.channel.send(f'Abbie now has {Abbie} GBP')
+                    await message.channel.send(f'Zameer now has {Zameer} GBP')
+                if split_msg[4].lower() == "jj":
+                    Dan += temp_gbp
+                    Abbie -= temp_gbp
+                    await message.channel.send(f'Abbie now has {Abbie} GBP')
+                    await message.channel.send(f'Dan now has {Dan} GBP')
+                if split_msg[4].lower() == "michael":
+                    Michael += temp_gbp
+                    Abbie -= temp_gbp
+                    await message.channel.send(f'Abbie now has {Abbie} GBP')
+                    await message.channel.send(f'Michael now has {Michael} GBP')
+                if split_msg[4].lower() == "zameer":
+                    Eli += temp_gbp
+                    Abbie -= temp_gbp
+                    await message.channel.send(f'Abbie now has {Abbie} GBP')
+                    await message.channel.send(f'Eli now has {Eli} GBP')
+
+                if split_msg[4].lower() == "logan":
+                    Luke += temp_gbp
+                    Abbie -= temp_gbp
+                    await message.channel.send(f'Abbie now has {Abbie} GBP')
+                    await message.channel.send(f'Luke now has {Luke} GBP')
+
+                if split_msg[4].lower() == "haxy":
+                    HAXY += temp_gbp
+                    Abbie -= temp_gbp
+                    await message.channel.send(f'Abbie now has {Abbie} GBP')
+                    await message.channel.send(f'HAXY now has {HAXY} GBP')
+
+
+            else:
+                await message.channel.send(f"Looks like you don't have enough GBP")
+
+
+     #Allows Lily to transfer GBP
+    if str(message.author) == str(lily_author):
+        if "give" in message.content.lower() and 'gbp' in message.content.lower() != -1:
+
+            #index 0 should be 'give'
+            #index 1 shoud be the number of gbp
+            #index 2 should be 'gbp'
+            #index 3 should be 'to'
+            #index 4 should be the name of the person
+            split_msg = str(message.content).split()
+            print(split_msg[0])
+            print(split_msg[1])
+            print(split_msg[2])
+            print(split_msg[3])
+            print(split_msg[4])
+            temp_gbp = int(split_msg[1])
+            print(temp_gbp)
+            temp_gbp = abs(temp_gbp)
+            if int(split_msg[1]) <= int(Lily) and temp_gbp >= 0:
+                if split_msg[4].lower() == "nico":
+                    Nico += temp_gbp
+                    Lily -= temp_gbp
+                    await message.channel.send(f'Lily now has {Lily} GBP')
+                    await message.channel.send(f'Nico now has {Nico} GBP')
+                if split_msg[4].lower() == "ashton":
+                    Ashton += temp_gbp
+                    Lily -= temp_gbp
+                    await message.channel.send(f'Lily now has {Lily} GBP')
+                    await message.channel.send(f'Ashton now has {Ashton} GBP')
+                if split_msg[4].lower() == "lily":
+                    Abbie += temp_gbp
+                    Lily -= temp_gbp
+                    await message.channel.send(f'Lily now has {Lily} GBP')
+                    await message.channel.send(f'Abbie now has {Abbie} GBP')
+                if split_msg[4].lower() == "enrique":
+                    Enrique += temp_gbp
+                    Lily -= temp_gbp
+                    await message.channel.send(f'Lily now has {Lily} GBP')
+                    await message.channel.send(f'Enrique now has {Enrique} GBP')
+                if split_msg[4].lower() == "kylie":
+                    Kylie += temp_gbp
+                    Lily -= temp_gbp
+                    await message.channel.send(f'Lily now has {Lily} GBP')
+                    await message.channel.send(f'Kylie now has {Kylie} GBP')
+                if split_msg[4].lower() == "abbie":
+                    Logan += temp_gbp
+                    Lily -= temp_gbp
+                    await message.channel.send(f'Lily now has {Lily} GBP')
+                    await message.channel.send(f'Logan now has {Logan} GBP')
+                if split_msg[4].lower() == "luke":
+                    JJ += temp_gbp
+                    Lily -= temp_gbp
+                    await message.channel.send(f'Lily now has {Lily} GBP')
+                    await message.channel.send(f'JJ now has {JJ} GBP')
+                if split_msg[4].lower() == "brandon":
+                    Brandon += temp_gbp
+                    Lily -= temp_gbp
+                    await message.channel.send(f'Lily now has {Lily} GBP')
+                    await message.channel.send(f'Brandon now has {Brandon} GBP')
+                if split_msg[4].lower() == "charlie":
+                    Charlie += temp_gbp
+                    Lily -= temp_gbp
+                    await message.channel.send(f'Lily now has {Lily} GBP')
+                    await message.channel.send(f'Charlie now has {Charlie} GBP')
+                if split_msg[4].lower() == "dan":
+                    Zameer += temp_gbp
+                    Lily -= temp_gbp
+                    await message.channel.send(f'Lily now has {Lily} GBP')
+                    await message.channel.send(f'Zameer now has {Zameer} GBP')
+                if split_msg[4].lower() == "jj":
+                    Dan += temp_gbp
+                    Lily -= temp_gbp
+                    await message.channel.send(f'Lily now has {Lily} GBP')
+                    await message.channel.send(f'Dan now has {Dan} GBP')
+                if split_msg[4].lower() == "michael":
+                    Michael += temp_gbp
+                    Lily -= temp_gbp
+                    await message.channel.send(f'Lily now has {Lily} GBP')
+                    await message.channel.send(f'Michael now has {Michael} GBP')
+                if split_msg[4].lower() == "zameer":
+                    Eli += temp_gbp
+                    Lily -= temp_gbp
+                    await message.channel.send(f'Lily now has {Lily} GBP')
+                    await message.channel.send(f'Eli now has {Eli} GBP')
+
+                if split_msg[4].lower() == "logan":
+                    Luke += temp_gbp
+                    Lily -= temp_gbp
+                    await message.channel.send(f'Lily now has {Lily} GBP')
+                    await message.channel.send(f'Luke now has {Luke} GBP')
+
+                if split_msg[4].lower() == "haxy":
+                    HAXY += temp_gbp
+                    Lily -= temp_gbp
+                    await message.channel.send(f'Lily now has {Lily} GBP')
+                    await message.channel.send(f'HAXY now has {HAXY} GBP')
+
+
+            else:
+                await message.channel.send(f"Looks like you don't have enough GBP")
+
+
+      #Allows Nico to tranfer GBP
+    if str(message.author) == str(nico_author):
+        if "give" in message.content.lower() and 'gbp' in message.content.lower() != -1:
+
+            #index 0 should be 'give'
+            #index 1 shoud be the number of gbp
+            #index 2 should be 'gbp'
+            #index 3 should be 'to'
+            #index 4 should be the name of the person
+            split_msg = str(message.content).split()
+            print(split_msg[0])
+            print(split_msg[1])
+            print(split_msg[2])
+            print(split_msg[3])
+            print(split_msg[4])
+            temp_gbp = int(split_msg[1])
+            print(temp_gbp)
+            temp_gbp = abs(temp_gbp)
+            if int(split_msg[1]) <= int(Nico) and temp_gbp >= 0:
+                if split_msg[4].lower() == "nico":
+                    Lily += temp_gbp
+                    Nico -= temp_gbp
+                    await message.channel.send(f'Nico now has {Nico} GBP')
+                    await message.channel.send(f'Lily now has {Lily} GBP')
+                if split_msg[4].lower() == "ashton":
+                    Ashton += temp_gbp
+                    Nico -= temp_gbp
+                    await message.channel.send(f'Nico now has {Nico} GBP')
+                    await message.channel.send(f'Ashton now has {Ashton} GBP')
+                if split_msg[4].lower() == "lily":
+                    Abbie += temp_gbp
+                    Nico -= temp_gbp
+                    await message.channel.send(f'Nico now has {Nico} GBP')
+                    await message.channel.send(f'Abbie now has {Abbie} GBP')
+                if split_msg[4].lower() == "enrique":
+                    Enrique += temp_gbp
+                    Nico -= temp_gbp
+                    await message.channel.send(f'Nico now has {Nico} GBP')
+                    await message.channel.send(f'Enrique now has {Enrique} GBP')
+                if split_msg[4].lower() == "kylie":
+                    Kylie += temp_gbp
+                    Nico -= temp_gbp
+                    await message.channel.send(f'Nico now has {Nico} GBP')
+                    await message.channel.send(f'Kylie now has {Kylie} GBP')
+                if split_msg[4].lower() == "abbie":
+                    Logan += temp_gbp
+                    Nico -= temp_gbp
+                    await message.channel.send(f'Nico now has {Nico} GBP')
+                    await message.channel.send(f'Logan now has {Logan} GBP')
+                if split_msg[4].lower() == "luke":
+                    JJ += temp_gbp
+                    Nico -= temp_gbp
+                    await message.channel.send(f'Nico now has {Nico} GBP')
+                    await message.channel.send(f'JJ now has {JJ} GBP')
+                if split_msg[4].lower() == "brandon":
+                    Brandon += temp_gbp
+                    Nico -= temp_gbp
+                    await message.channel.send(f'Nico now has {Nico} GBP')
+                    await message.channel.send(f'Brandon now has {Brandon} GBP')
+                if split_msg[4].lower() == "charlie":
+                    Charlie += temp_gbp
+                    Nico -= temp_gbp
+                    await message.channel.send(f'Nico now has {Nico} GBP')
+                    await message.channel.send(f'Charlie now has {Charlie} GBP')
+                if split_msg[4].lower() == "dan":
+                    Zameer += temp_gbp
+                    Nico -= temp_gbp
+                    await message.channel.send(f'Nico now has {Nico} GBP')
+                    await message.channel.send(f'Zameer now has {Zameer} GBP')
+                if split_msg[4].lower() == "jj":
+                    Dan += temp_gbp
+                    Nico -= temp_gbp
+                    await message.channel.send(f'Nico now has {Nico} GBP')
+                    await message.channel.send(f'Dan now has {Dan} GBP')
+                if split_msg[4].lower() == "michael":
+                    Michael += temp_gbp
+                    Nico -= temp_gbp
+                    await message.channel.send(f'Nico now has {Nico} GBP')
+                    await message.channel.send(f'Michael now has {Michael} GBP')
+                if split_msg[4].lower() == "zameer":
+                    Eli += temp_gbp
+                    Nico -= temp_gbp
+                    await message.channel.send(f'Nico now has {Nico} GBP')
+                    await message.channel.send(f'Eli now has {Eli} GBP')
+
+                if split_msg[4].lower() == "logan":
+                    Luke += temp_gbp
+                    Nico -= temp_gbp
+                    await message.channel.send(f'Nico now has {Nico} GBP')
+                    await message.channel.send(f'Luke now has {Luke} GBP')
+
+                if split_msg[4].lower() == "haxy":
+                    HAXY += temp_gbp
+                    Nico -= temp_gbp
+                    await message.channel.send(f'Nico now has {Nico} GBP')
+                    await message.channel.send(f'HAXY now has {HAXY} GBP')
+
+
+            else:
+                await message.channel.send(f"Looks like you don't have enough GBP")
+
+
+    #Allows Enrique to tranfer GBP
+    if str(message.author) == str(enrique_author):
+        if "give" in message.content.lower() and 'gbp' in message.content.lower() != -1:
+
+            #index 0 should be 'give'
+            #index 1 shoud be the number of gbp
+            #index 2 should be 'gbp'
+            #index 3 should be 'to'
+            #index 4 should be the name of the person
+            split_msg = str(message.content).split()
+            print(split_msg[0])
+            print(split_msg[1])
+            print(split_msg[2])
+            print(split_msg[3])
+            print(split_msg[4])
+            temp_gbp = int(split_msg[1])
+            print(temp_gbp)
+            temp_gbp = abs(temp_gbp)
+            if int(split_msg[1]) <= int(Enrique) and temp_gbp >= 0:
+                if split_msg[4].lower() == "nico":
+                    Lily += temp_gbp
+                    Enrique -= temp_gbp
+                    await message.channel.send(f'Enrique now has {Enrique} GBP')
+                    await message.channel.send(f'Lily now has {Lily} GBP')
+                if split_msg[4].lower() == "ashton":
+                    Ashton += temp_gbp
+                    Enrique -= temp_gbp
+                    await message.channel.send(f'Enrique now has {Enrique} GBP')
+                    await message.channel.send(f'Ashton now has {Ashton} GBP')
+                if split_msg[4].lower() == "lily":
+                    Abbie += temp_gbp
+                    Enrique -= temp_gbp
+                    await message.channel.send(f'Enrique now has {Enrique} GBP')
+                    await message.channel.send(f'Abbie now has {Abbie} GBP')
+                if split_msg[4].lower() == "enrique":
+                    Nico += temp_gbp
+                    Enrique -= temp_gbp
+                    await message.channel.send(f'Enrique now has {Enrique} GBP')
+                    await message.channel.send(f'Nico now has {Nico} GBP')
+                if split_msg[4].lower() == "kylie":
+                    Kylie += temp_gbp
+                    Enrique -= temp_gbp
+                    await message.channel.send(f'Enrique now has {Enrique} GBP')
+                    await message.channel.send(f'Kylie now has {Kylie} GBP')
+                if split_msg[4].lower() == "abbie":
+                    Logan += temp_gbp
+                    Enrique -= temp_gbp
+                    await message.channel.send(f'Enrique now has {Enrique} GBP')
+                    await message.channel.send(f'Logan now has {Logan} GBP')
+                if split_msg[4].lower() == "luke":
+                    JJ += temp_gbp
+                    Enrique -= temp_gbp
+                    await message.channel.send(f'Enrique now has {Enrique} GBP')
+                    await message.channel.send(f'JJ now has {JJ} GBP')
+                if split_msg[4].lower() == "brandon":
+                    Brandon += temp_gbp
+                    Enrique -= temp_gbp
+                    await message.channel.send(f'Enrique now has {Enrique} GBP')
+                    await message.channel.send(f'Brandon now has {Brandon} GBP')
+                if split_msg[4].lower() == "charlie":
+                    Charlie += temp_gbp
+                    Enrique -= temp_gbp
+                    await message.channel.send(f'Enrique now has {Enrique} GBP')
+                    await message.channel.send(f'Charlie now has {Charlie} GBP')
+                if split_msg[4].lower() == "dan":
+                    Zameer += temp_gbp
+                    Enrique -= temp_gbp
+                    await message.channel.send(f'Enrique now has {Enrique} GBP')
+                    await message.channel.send(f'Zameer now has {Zameer} GBP')
+                if split_msg[4].lower() == "jj":
+                    Dan += temp_gbp
+                    Enrique -= temp_gbp
+                    await message.channel.send(f'Enrique now has {Enrique} GBP')
+                    await message.channel.send(f'Dan now has {Dan} GBP')
+                if split_msg[4].lower() == "michael":
+                    Michael += temp_gbp
+                    Enrique -= temp_gbp
+                    await message.channel.send(f'Enrique now has {Enrique} GBP')
+                    await message.channel.send(f'Michael now has {Michael} GBP')
+                if split_msg[4].lower() == "zameer":
+                    Eli += temp_gbp
+                    Enrique -= temp_gbp
+                    await message.channel.send(f'Enrique now has {Enrique} GBP')
+                    await message.channel.send(f'Eli now has {Eli} GBP')
+
+                if split_msg[4].lower() == "logan":
+                    Luke += temp_gbp
+                    Enrique -= temp_gbp
+                    await message.channel.send(f'Enrique now has {Enrique} GBP')
+                    await message.channel.send(f'Luke now has {Luke} GBP')
+
+                if split_msg[4].lower() == "haxy":
+                    HAXY += temp_gbp
+                    Enrique -= temp_gbp
+                    await message.channel.send(f'Enrique now has {Enrique} GBP')
+                    await message.channel.send(f'HAXY now has {HAXY} GBP')
+
+
+            else:
+                await message.channel.send(f"Looks like you don't have enough GBP")
+
+
+
+    if str(message.author) == str(haxy_author):
+        if "give" in message.content.lower() and 'gbp' in message.content.lower() != -1:
+
+            #index 0 should be 'give'
+            #index 1 shoud be the number of gbp
+            #index 2 should be 'gbp'
+            #index 3 should be 'to'
+            #index 4 should be the name of the person
+            split_msg = str(message.content).split()
+            print(split_msg[0])
+            print(split_msg[1])
+            print(split_msg[2])
+            print(split_msg[3])
+            print(split_msg[4])
+            temp_gbp = int(split_msg[1])
+            print(temp_gbp)
+            temp_gbp = abs(temp_gbp)
+            if int(split_msg[1]) <= int(Enrique) and temp_gbp >= 0:
+                if split_msg[4].lower() == "nico":
+                    Lily += temp_gbp
+                    HAXY -= temp_gbp
+                    await message.channel.send(f'HAXY now has {HAXY} GBP')
+                    await message.channel.send(f'Nico now has {Nico} GBP')
+                if split_msg[4].lower() == "ashton":
+                    Ashton += temp_gbp
+                    HAXY -= temp_gbp
+                    await message.channel.send(f'HAXY now has {HAXY} GBP')
+                    await message.channel.send(f'Ashton now has {Ashton} GBP')
+                if split_msg[4].lower() == "lily":
+                    Abbie += temp_gbp
+                    HAXY -= temp_gbp
+                    await message.channel.send(f'HAXY now has {HAXY} GBP')
+                    await message.channel.send(f'Abbie now has {Abbie} GBP')
+                if split_msg[4].lower() == "enrique":
+                    Nico += temp_gbp
+                    HAXY -= temp_gbp
+                    await message.channel.send(f'HAXY now has {HAXY} GBP')
+                    await message.channel.send(f'Nico now has {Nico} GBP')
+                if split_msg[4].lower() == "kylie":
+                    Kylie += temp_gbp
+                    HAXY -= temp_gbp
+                    await message.channel.send(f'HAXY now has {HAXY} GBP')
+                    await message.channel.send(f'Kylie now has {Kylie} GBP')
+                if split_msg[4].lower() == "abbie":
+                    Logan += temp_gbp
+                    HAXY -= temp_gbp
+                    await message.channel.send(f'HAXY now has {HAXY} GBP')
+                    await message.channel.send(f'Logan now has {Logan} GBP')
+                if split_msg[4].lower() == "luke":
+                    JJ += temp_gbp
+                    HAXY -= temp_gbp
+                    await message.channel.send(f'HAXY now has {HAXY} GBP')
+                    await message.channel.send(f'JJ now has {JJ} GBP')
+                if split_msg[4].lower() == "brandon":
+                    Brandon += temp_gbp
+                    HAXY -= temp_gbp
+                    await message.channel.send(f'HAXY now has {HAXY} GBP')
+                    await message.channel.send(f'Brandon now has {Brandon} GBP')
+                if split_msg[4].lower() == "charlie":
+                    Charlie += temp_gbp
+                    HAXY -= temp_gbp
+                    await message.channel.send(f'HAXY now has {HAXY} GBP')
+                    await message.channel.send(f'Charlie now has {Charlie} GBP')
+                if split_msg[4].lower() == "dan":
+                    Zameer += temp_gbp
+                    HAXY -= temp_gbp
+                    await message.channel.send(f'HAXY now has {HAXY} GBP')
+                    await message.channel.send(f'Zameer now has {Zameer} GBP')
+                if split_msg[4].lower() == "jj":
+                    Dan += temp_gbp
+                    HAXY -= temp_gbp
+                    await message.channel.send(f'HAXY now has {HAXY} GBP')
+                    await message.channel.send(f'Dan now has {Dan} GBP')
+                if split_msg[4].lower() == "michael":
+                    Michael += temp_gbp
+                    HAXY -= temp_gbp
+                    await message.channel.send(f'HAXY now has {HAXY} GBP')
+                    await message.channel.send(f'Michael now has {Michael} GBP')
+                if split_msg[4].lower() == "zameer":
+                    Eli += temp_gbp
+                    HAXY -= temp_gbp
+                    await message.channel.send(f'HAXY now has {HAXY} GBP')
+                    await message.channel.send(f'Eli now has {Eli} GBP')
+
+                if split_msg[4].lower() == "logan":
+                    Luke += temp_gbp
+                    HAXY -= temp_gbp
+                    await message.channel.send(f'HAXY now has {HAXY} GBP')
+                    await message.channel.send(f'Luke now has {Luke} GBP')
+
+
+            else:
+                await message.channel.send(f"Looks like you don't have enough GBP")
+
+client.run(TOKEN)
